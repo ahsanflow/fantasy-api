@@ -21,6 +21,7 @@ class FantasyTeamResource extends JsonResource
             'name' => $this->name,
             'budget' => $this->budget,
             'user_info' => UserResource::make($this->user),
+
         ];
     }
 }
